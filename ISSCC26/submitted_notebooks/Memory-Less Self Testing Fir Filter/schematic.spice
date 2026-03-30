@@ -1,0 +1,3 @@
+* Schematic SPICE netlist for fir_filter
+.subckt fir_filter 
+.ends fir_filter
