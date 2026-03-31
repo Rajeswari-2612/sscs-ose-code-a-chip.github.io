@@ -66,6 +66,9 @@ y[n] = h_0 x[n] + h_1 x[n-1] + h_2 x[n-2]
 * Outputs are accumulated using adders
 * Self-test logic verifies correctness at intermediate stages
 
+  <img width="1079" height="564" alt="Screenshot 2026-03-30 181908" src="https://github.com/user-attachments/assets/02e7ab7f-c251-4011-a352-df8dc12fe7ae" />
+
+
 ---
 
 ## 🧪 Self-Testing Approach
@@ -92,6 +95,13 @@ The notebook demonstrates:
 
 * 📈 Input vs Output waveform
 * ⚙️ FIR filter response
+
+  <img width="1046" height="764" alt="Screenshot 2026-03-31 022618" src="https://github.com/user-attachments/assets/932165f9-46ff-4f58-be48-d512f329bc9c" />
+
+  
+  <img width="1436" height="724" alt="Screenshot 2026-03-31 023016" src="https://github.com/user-attachments/assets/30f575b4-15dc-483e-8500-42ec1fda99aa" />
+
+
 
 
 ---
