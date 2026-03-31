@@ -1,4 +1,4 @@
-# 🔍 Memory-Less Self-Testing FIR Filter
+#  Memory-Less Self-Testing FIR Filter
 
 ### Using Vedic Mathematic
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Traditional Built-In Self-Test (BIST) techniques rely on centralized verification hardware or large reference memories, resulting in increased area overhead and limited fault localization capability.
 
@@ -14,7 +14,7 @@ This project introduces a **memory-less, distributed self-testing approach** bas
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Design a **3-tap FIR filter** with reduced hardware complexity
 * Implement a **memory-less self-testing mechanism**
@@ -24,24 +24,24 @@ This project introduces a **memory-less, distributed self-testing approach** bas
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
-### 🔹 Memory-Less Design
+###  Memory-Less Design
 
 * Eliminates dependency on external or reference memory
 * Reduces area and power consumption
 
-### 🔹 Self-Testing Mechanism
+###  Self-Testing Mechanism
 
 * Distributed verification within each computation unit
 * Detects faults locally instead of centralized checking
 
-### 🔹 Vedic Multiplication (VTU)
+###  Vedic Multiplication (VTU)
 
 * Uses **Urdhva Tiryagbhyam Sutra**
 * Enables parallel multiplication → faster and efficient
   
-### 🔹 Verification Principle (Gunita Samuccaya)
+###  Verification Principle (Gunita Samuccaya)
 
 * Core idea behind memory-less verification  
 * Multiplication:  
@@ -50,7 +50,7 @@ This project introduces a **memory-less, distributed self-testing approach** bas
   `digit_sum(a + b) = digit_sum(digit_sum(a) + digit_sum(b))` 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 The system consists of:
 
@@ -63,7 +63,7 @@ The system consists of:
 
 ---
 
-## ⚙️ Working Principle
+##  Working Principle
 
 The FIR filter output is given by:
 
@@ -80,7 +80,7 @@ y[n] = h_0 x[n] + h_1 x[n-1] + h_2 x[n-2]
 
 ---
 
-## 🧪 Self-Testing Approach
+##  Self-Testing Approach
 
 * No external reference memory required
 * Test patterns are implicitly generated within computation
@@ -102,8 +102,8 @@ This improves:
 
 The notebook demonstrates:
 
-* 📈 Input vs Output waveform
-* ⚙️ FIR filter response
+*  Input vs Output waveform
+*  FIR filter response
 
   <img width="1046" height="764" alt="Screenshot 2026-03-31 022618" src="https://github.com/user-attachments/assets/932165f9-46ff-4f58-be48-d512f329bc9c" />
 
@@ -115,7 +115,7 @@ The notebook demonstrates:
 
 ---
 
-## 🛠️ Open-Source Tools Used
+##  Open-Source Tools Used
 
 This project strictly uses open-source tools to ensure reproducibility:
 
@@ -149,7 +149,7 @@ jupyter notebook fir_self_test.ipynb
 
 ---
 
-## 📉 Advantages
+##  Advantages
 
 * ✔ Reduced area (no memory blocks)
 * ✔ Faster computation using Vedic math
@@ -159,7 +159,7 @@ jupyter notebook fir_self_test.ipynb
 
 ---
 
-## 🚀 Future Work
+##  Future Work
 
 * Extension to higher-order FIR filters
 * Integration into DSP and AI accelerator pipelines
