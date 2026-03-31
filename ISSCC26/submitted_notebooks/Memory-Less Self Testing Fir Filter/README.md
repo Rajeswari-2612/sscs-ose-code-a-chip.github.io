@@ -40,7 +40,14 @@ This project introduces a **memory-less, distributed self-testing approach** bas
 
 * Uses **Urdhva Tiryagbhyam Sutra**
 * Enables parallel multiplication → faster and efficient
+  
+### 🔹 Verification Principle (Gunita Samuccaya)
 
+* Core idea behind memory-less verification  
+* Multiplication:  
+  `digit_sum(a × b) = digit_sum(digit_sum(a) × digit_sum(b))`  
+* Addition:  
+  `digit_sum(a + b) = digit_sum(digit_sum(a) + digit_sum(b))` 
 ---
 
 ## 🏗️ Architecture
@@ -51,6 +58,8 @@ The system consists of:
 *  Vedic multipliers for coefficient multiplication
 *  Adders for accumulation
 *  Distributed self-test logic integrated within datapath
+*  Vedic Testing Units (VTUs) - Verify each arithmetic stage using Gunita Samuccaya principle
+
 
 ---
 
