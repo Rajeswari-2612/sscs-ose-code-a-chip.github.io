@@ -119,7 +119,7 @@ The notebook demonstrates:
 
 This project strictly uses open-source tools to ensure reproducibility:
 
-* ModelSim-altera
+
 * Icarus Verilog
 * GTK Wave
 * OpenRoad
