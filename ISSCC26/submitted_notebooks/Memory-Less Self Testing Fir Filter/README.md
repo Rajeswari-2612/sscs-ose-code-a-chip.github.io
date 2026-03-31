@@ -109,20 +109,7 @@ This project strictly uses open-source tools to ensure reproducibility:
 
 ---
 
-## 📂 Repository Structure
 
-```id="p4g2zn"
-ISSCC26/submitted_notebooks/fir_self_test/
-
-├── fir_self_test.ipynb      # Main notebook
-├── README.md               # Documentation
-├── requirements.txt        # Dependencies
-├── LICENSE                 # Open-source license
-├── verilog/                # (Optional) HDL files
-├── data/                   # (Optional) test inputs
-```
-
----
 
 ## ▶️ How to Run
 
@@ -156,17 +143,12 @@ jupyter notebook fir_self_test.ipynb
 ## 🚀 Future Work
 
 * Extension to higher-order FIR filters
-* Hardware implementation using open-source PDKs (e.g., Sky130)
 * Integration into DSP and AI accelerator pipelines
 * Power and delay optimization
 
 ---
 
-## 📜 License
 
-Licensed under the **Apache 2.0 License**
-
----
 
 ## 🙌 Acknowledgment
 
