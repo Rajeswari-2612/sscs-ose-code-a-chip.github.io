@@ -1,6 +1,6 @@
 # 🔍 Memory-Less Self-Testing FIR Filter
 
-### Using Vedic Mathematics
+### Using Vedic Mathematic
 
 ### IEEE SSCS Code-a-Chip Submission (ISSCC 2026)
 
